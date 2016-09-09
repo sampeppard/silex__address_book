@@ -7,9 +7,12 @@
     </head>
     <body>
         <div class="container">
-            <h3>You added {{ new_contact.getFirstName }} {{ new_contact.getLastName }} to your address book!</h3>
+            <h3>You added the following contact to your address book!</h3>
+            <p>Name: {{ new_contact.getFirstName }} {{ new_contact.getLastName }}</p>
+            <p>Address: {{ new_contact.getAddress }}, {{ new_contact.getCity }} {{ new_contact.getZip }}</p>
+            <p>Phone Number: {{ new_contact.getPhoneNumber }}</p>
 
-            <a href="/"><p>Click here to go back to view your book</p></a>
+            <a href="/"><p>Click here to go back and view your address book</p></a>
         </div>
     </body>
 </html>

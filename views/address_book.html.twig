@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Address Book made with Silex and Twig!</h1>
+            <h1>Address Book App made with Silex and Twig</h1>
             {% if list_of_contacts is not empty %}
             <p>Listed Addresses</p>
                 {% for contact in list_of_contacts %}
@@ -31,7 +31,7 @@
                 </div>
                 <div class="form-group">
                     <label for="phone_number">Phone Number:</label>
-                    <input id="phone_number" class="form-control" name="phone_number" maxlength="10">
+                    <input id="phone_number" class="form-control" name="phone_number" type="number" maxlength="10" placeholder="Please enter a 10 digit phone number.">
                 </div>
                 <div class="form-group">
                     <label for="address">Address:</label>
@@ -59,7 +59,7 @@
             </form>
         </div>
 
-        
+
         <br>
         <br>
         <br>

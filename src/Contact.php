@@ -41,6 +41,12 @@
         }
 
         function getPhoneNumber() {
+            $phone_arr = str_split($this->phone_number);
+            if (count($phone_arr) === 10) {
+                $phone_arr[2] .= "-";
+                $phone_arr[5] .= "-";
+            }
+            $this->phone_number = implode("", $phone_arr);
             return $this->phone_number;
         }
 
