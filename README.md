@@ -33,12 +33,12 @@ For comments or questions, please email sampeppard@gmail.com
 
 ## Technologies Used
 
-HTML
-CSS
-PHP
-Silex
-Twig
-Bootstrap version 3.3.7.
+* HTML
+* CSS
+* PHP
+* Silex
+* Twig
+* Bootstrap version 3.3.7.
 
 ## Heroku Link
 
