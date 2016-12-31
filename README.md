@@ -1,21 +1,21 @@
-# Silex Address Book
+# Gift List
 
-an address book application built with PHP, Silex, Twig and Bootstrap
+a gift recipient list application built with PHP, Silex, Twig and Bootstrap deployed to Heroku
 
 ### By **Samuel Peppard**
 
 ## Description
 
-An address book application that can allows a user to create, list and delete contacts
+A gift recipient list application that can allows a user to create, list and delete gift recipients
 
 ## Specifications
 
-#### 1. Return a listed contact that was entered in the form
+#### 1. Return a listed recipient that was entered in the form
 
 * Example Input: Bob Smith, 123 Fake Street, Springfield NY, 12345
 * Example Output: Listed Addresses, Name: Bob Smith, Address: 123 Fake Street, City: Springfield  State: NY, Zip Code: 12345
 
-#### 2. Delete all entered contacts
+#### 2. Delete all entered recipients
 
 * Example Input: Delete Contacts
 * Example Output: All Contacts Deleted
@@ -42,6 +42,10 @@ PHP
 Silex
 Twig
 Bootstrap version 3.3.7.
+
+## Heroku Link
+
+https://silex-gift-list.herokuapp.com/
 
 ### License
 
