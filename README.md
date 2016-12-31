@@ -1,8 +1,10 @@
 # Gift List
 
 a project built with PHP, Silex, Twig and Bootstrap deployed to Heroku
-
-### By **Samuel Peppard**
+#
+##### By [Sam Peppard](https://github.com/sampeppard)
+#
+![screenshot of project main page](web/images/demo-screenshot.jpg)
 
 ## Description
 
