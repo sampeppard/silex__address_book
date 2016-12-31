@@ -1,6 +1,6 @@
 # Gift List
 
-a gift recipient list application built with PHP, Silex, Twig and Bootstrap deployed to Heroku
+a project built with PHP, Silex, Twig and Bootstrap deployed to Heroku
 
 ### By **Samuel Peppard**
 
@@ -8,17 +8,12 @@ a gift recipient list application built with PHP, Silex, Twig and Bootstrap depl
 
 A gift recipient list application that can allows a user to create, list and delete gift recipients
 
-## Specifications
-
-#### 1. Return a listed recipient that was entered in the form
-
-* Example Input: Bob Smith, 123 Fake Street, Springfield NY, 12345
-* Example Output: Listed Addresses, Name: Bob Smith, Address: 123 Fake Street, City: Springfield  State: NY, Zip Code: 12345
-
-#### 2. Delete all entered recipients
-
-* Example Input: Delete Contacts
-* Example Output: All Contacts Deleted
+----
+### **Specifications**
+| _Behavior_ | _Input_ | _Output_ |
+|:---------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Return a listed recipient that was entered in the form | Bob Smith, 123 Fake Street, Springfield NY, 12345 | Listed Addresses, Name: Bob Smith, Address: 123 Fake Street, City: Springfield  State: NY, Zip Code: 12345 |
+| Delete all entered recipients | Delete Recipients | All Recipients Deleted |
 
 ## Setup/Installation Requirements
 
